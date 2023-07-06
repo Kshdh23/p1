@@ -1,38 +1,73 @@
-.App {
+/* App.css */
+
+/* Reset default margin and padding */
+body, h1, h2, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Center-align the header text */
+header h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Style the navigation */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+/* Add some spacing between navigation links */
+nav a {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Apply styles to the main content area */
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
 }
+
+my {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+
+/* Style the unordered list in the main content */
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+/* Add some spacing between list items */
+li {
+  margin-bottom: 10px;
+}
+
+/* Style the links in the main content */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Apply some basic styles to the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
